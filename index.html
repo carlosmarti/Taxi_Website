@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<title>Taxi inc.</title>
+	</head>
+	<body class="background">
+		
+		<!-- navbar -->
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Location</a></li>
+			</ul>
+		</nav>
+		
+		<!-- taxi web site title -->
+		<div class="text-center">
+			<h1>Taxi INC.</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste culpa est ad sit veritatis atque, quisquam eligendi facere laborum esse, pariatur numquam, obcaecati laboriosam.</p>
+		</div>
+		
+		<!-- input miles and price result -->
+		<h1 id="input-title">Find out how much a trip will cost (avg rate $2.50)</h1>
+		<div class="miles-input square">
+			<h2 class="wrap">Put in amount of miles wanted to travel</h2>
+			<input type="text" class="wrap" id="miles-wanted">
+		</div>
+		
+		<div class="miles-input square">
+			<h2 class="wrap2">Cost</h2>
+			<input type="text" class="wrap2" disabled id="cost">
+		</div>
+		<div class="miles-input square">
+			<button class="btn-position" id="milesEnter">
+				<p>Enter</p>
+			</button>
+		</div>
+		
+		<!-- javascript -->
+		<script src="js/costCalc.js">
+		</script>
+	</body>
+</html>
